@@ -6,7 +6,7 @@
 
 Tencent is pleased to support the open source community by making RapidJSON available.
 
-Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved.
+Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip.
 
 * [RapidJSON GitHub](https://github.com/Tencent/rapidjson/)
 * RapidJSON Documentation
@@ -71,6 +71,9 @@ Users can build and run the unit tests on their platform/compiler.
 ## Installation
 
 RapidJSON is a header-only C++ library. Just copy the `include/rapidjson` folder to system or project's include path.
+
+Alternatively, if you are using the [vcpkg](https://github.com/Microsoft/vcpkg/) dependency manager you can download and install rapidjson with CMake integration in a single command:
+* vcpkg install rapidjson
 
 RapidJSON uses following software as its dependencies:
 * [CMake](https://cmake.org/) as a general build tool
@@ -193,7 +196,7 @@ You can copy and paste the license summary from below.
 ```
 Tencent is pleased to support the open source community by making RapidJSON available.
 
-Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip. All rights reserved.
+Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip.
 
 Licensed under the MIT License (the "License"); you may not use this file except
 in compliance with the License. You may obtain a copy of the License at
